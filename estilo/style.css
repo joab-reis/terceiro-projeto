@@ -12,7 +12,7 @@ html, body {
     background-color: black;
 }
 body {
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/painel_adesivo.jpg') no-repeat top center;
     background-size: cover;
 }
 main {
@@ -23,18 +23,14 @@ section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
-    background: url('../imagens/frame-iphone.png') no-repeat;
-    height: 627px;
-    width: 311px;
+    
+    transform: translate(-50% -50%);
+    width: 500px;
+    height: 500px;
 }
 iframe#tela {
     position: relative;
-    top: 80px;
-    left: 27px;
-    height: 466px;
-    width: 258px;
+   
 }
 section#redes {
     text-align: right;
